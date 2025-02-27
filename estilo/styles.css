@@ -1,5 +1,6 @@
 *{
     margin: 17px;
+    paddin:  0px;
     box-sizing: border-box;
 }
 
@@ -18,23 +19,6 @@
         max-width: 200px;
     }
 }
-
-@media (max-width: 3000px) {
-    .container {
-        flex-direction: column;
-    }
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 
 body, html {
     height: 99%;
