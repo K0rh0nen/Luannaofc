@@ -1,6 +1,21 @@
 *{
-    width: 100%;
     box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    section ul {
+        flex-direction: row;
+    }
+    
+    .photo-gallery .photos img {
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 900px) {
+    .photo-gallery .photos img {
+        max-width: 200px;
+    }
 }
 
 body, html {
@@ -80,18 +95,4 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 600px) {
-    section ul {
-        flex-direction: row;
-    }
-    
-    .photo-gallery .photos img {
-        max-width: 150px;
-    }
-}
 
-@media (min-width: 900px) {
-    .photo-gallery .photos img {
-        max-width: 200px;
-    }
-}
